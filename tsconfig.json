@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@lib": [
+        "packages/lib"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "packages/lib"
+    },
+    {
+      "path": "services/user"
+    },
+    {
+      "path": "services/gateway"
+    },
+    {
+      "path": "services/auth"
+    }
+  ]
+}
